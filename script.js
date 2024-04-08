@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dental Persona</title>
+<title>Dental Persona Quiz</title>
 <style>
   body {
     background-color: #d8a1c4;
@@ -30,13 +30,12 @@
 </style>
 </head>
 <body>
-  <h1>Come and find your dental persona</h1>
+  <h1>Come and find your dental persona!</h1>
   <button id="playButton">Play</button>
 
   <script>
     document.getElementById('playButton').addEventListener('click', function() {
-      // Add your play code here
-      alert('Let the game begin!');
+      window.location.href = 'quiz.html';
     });
   </script>
 </body>
