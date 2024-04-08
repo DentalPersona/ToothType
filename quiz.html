@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dental Persona Quiz</title>
+<style>
+  body {
+    background-color: #d8a1c4;
+    font-family: 'Muli', sans-serif;
+    color: #301934;
+    padding: 50px;
+  }
+
+  .question {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #301934;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  button:hover {
+    background-color: #5d2f50;
+  }
+</style>
+</head>
+<body>
+  <h1>Dental Persona Quiz</h1>
+  <div class="question">
+    <p>1. When facing a complex dental procedure, do you tend to:</p>
+    <label><input type="radio" name="q1" value="J"> Analyze every detail and plan meticulously.</label>
+    <label><input type="radio" name="q1" value="P"> Trust your instincts and adapt as needed.</label>
+  </div>
+  <!-- Add more questions here -->
+
+  <button id="submitQuiz">Submit</button>
+
+  <script>
+    document.getElementById('submitQuiz').addEventListener('click', function() {
+      // Add code to process and evaluate the quiz answers
+      alert('Quiz submitted! Results will be displayed.');
+    });
+  </script>
+</body>
+</html>
